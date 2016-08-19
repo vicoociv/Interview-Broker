@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57371A1F1D5FD67B00856229 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57371A1E1D5FD67B00856229 /* Gradient.swift */; };
 		57996D2B1D557FED005555E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57996D2A1D557FED005555E2 /* AppDelegate.swift */; };
 		57996D2D1D557FED005555E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57996D2C1D557FED005555E2 /* ViewController.swift */; };
 		57996D301D557FED005555E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57996D2E1D557FED005555E2 /* Main.storyboard */; };
 		57996D321D557FED005555E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57996D311D557FED005555E2 /* Assets.xcassets */; };
 		57996D351D557FED005555E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57996D331D557FED005555E2 /* LaunchScreen.storyboard */; };
+		57996D3D1D558104005555E2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57996D3C1D558104005555E2 /* CustomTableViewCell.swift */; };
+		57996D3F1D55AF5A005555E2 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57996D3E1D55AF5A005555E2 /* NewViewController.swift */; };
+		57996D411D55C9F8005555E2 /* StartupScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57996D401D55C9F8005555E2 /* StartupScreenViewController.swift */; };
+		57996D431D56F30B005555E2 /* DatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57996D421D56F30B005555E2 /* DatesTableViewCell.swift */; };
+		57996D541D5A9CB9005555E2 /* Hospital Two in Resources */ = {isa = PBXBuildFile; fileRef = 57996D501D5A9CB9005555E2 /* Hospital Two */; };
+		57996D551D5A9CB9005555E2 /* Hospital One in Resources */ = {isa = PBXBuildFile; fileRef = 57996D511D5A9CB9005555E2 /* Hospital One */; };
+		57996D561D5A9CB9005555E2 /* Hospital Four in Resources */ = {isa = PBXBuildFile; fileRef = 57996D521D5A9CB9005555E2 /* Hospital Four */; };
+		57996D571D5A9CB9005555E2 /* Hospital Three in Resources */ = {isa = PBXBuildFile; fileRef = 57996D531D5A9CB9005555E2 /* Hospital Three */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57371A1E1D5FD67B00856229 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		57996D271D557FED005555E2 /* Interview Broker #3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview Broker #3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57996D2A1D557FED005555E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57996D2C1D557FED005555E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,14 @@
 		57996D311D557FED005555E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57996D341D557FED005555E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57996D361D557FED005555E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57996D3C1D558104005555E2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		57996D3E1D55AF5A005555E2 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		57996D401D55C9F8005555E2 /* StartupScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupScreenViewController.swift; sourceTree = "<group>"; };
+		57996D421D56F30B005555E2 /* DatesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesTableViewCell.swift; sourceTree = "<group>"; };
+		57996D501D5A9CB9005555E2 /* Hospital Two */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hospital Two"; sourceTree = "<group>"; };
+		57996D511D5A9CB9005555E2 /* Hospital One */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hospital One"; sourceTree = "<group>"; };
+		57996D521D5A9CB9005555E2 /* Hospital Four */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hospital Four"; sourceTree = "<group>"; };
+		57996D531D5A9CB9005555E2 /* Hospital Three */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hospital Three"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,7 @@
 		57996D1E1D557FED005555E2 = {
 			isa = PBXGroup;
 			children = (
+				57371A1E1D5FD67B00856229 /* Gradient.swift */,
 				57996D291D557FED005555E2 /* Interview Broker #3 */,
 				57996D281D557FED005555E2 /* Products */,
 			);
@@ -57,6 +76,14 @@
 				57996D2A1D557FED005555E2 /* AppDelegate.swift */,
 				57996D2C1D557FED005555E2 /* ViewController.swift */,
 				57996D2E1D557FED005555E2 /* Main.storyboard */,
+				57996D3C1D558104005555E2 /* CustomTableViewCell.swift */,
+				57996D421D56F30B005555E2 /* DatesTableViewCell.swift */,
+				57996D3E1D55AF5A005555E2 /* NewViewController.swift */,
+				57996D401D55C9F8005555E2 /* StartupScreenViewController.swift */,
+				57996D511D5A9CB9005555E2 /* Hospital One */,
+				57996D501D5A9CB9005555E2 /* Hospital Two */,
+				57996D531D5A9CB9005555E2 /* Hospital Three */,
+				57996D521D5A9CB9005555E2 /* Hospital Four */,
 				57996D311D557FED005555E2 /* Assets.xcassets */,
 				57996D331D557FED005555E2 /* LaunchScreen.storyboard */,
 				57996D361D557FED005555E2 /* Info.plist */,
@@ -123,7 +150,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57996D561D5A9CB9005555E2 /* Hospital Four in Resources */,
 				57996D351D557FED005555E2 /* LaunchScreen.storyboard in Resources */,
+				57996D541D5A9CB9005555E2 /* Hospital Two in Resources */,
+				57996D571D5A9CB9005555E2 /* Hospital Three in Resources */,
+				57996D551D5A9CB9005555E2 /* Hospital One in Resources */,
 				57996D321D557FED005555E2 /* Assets.xcassets in Resources */,
 				57996D301D557FED005555E2 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57996D3D1D558104005555E2 /* CustomTableViewCell.swift in Sources */,
+				57996D431D56F30B005555E2 /* DatesTableViewCell.swift in Sources */,
 				57996D2D1D557FED005555E2 /* ViewController.swift in Sources */,
+				57371A1F1D5FD67B00856229 /* Gradient.swift in Sources */,
+				57996D411D55C9F8005555E2 /* StartupScreenViewController.swift in Sources */,
 				57996D2B1D557FED005555E2 /* AppDelegate.swift in Sources */,
+				57996D3F1D55AF5A005555E2 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +323,7 @@
 				57996D3B1D557FED005555E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
